@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | carTest</title>
+    <title>Epochal</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body style="text-align: center; margin-top: 50px;">
-    <canvas id="unity-canvas" style="width: 675px; height: 1080px; background: #231F20; border-radius: 24px;"></canvas>
-    <script src="Build/0102.loader.js"></script>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 675px; height: 1080px; background: #231F20"></canvas>
+    <script src="Build/0103_C.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/0102.data",
-        frameworkUrl: "Build/0102.framework.js",
-        codeUrl: "Build/0102.wasm",
+        dataUrl: "Build/0103_C.data",
+        frameworkUrl: "Build/0103_C.framework.js",
+        codeUrl: "Build/0103_C.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "carTest",
